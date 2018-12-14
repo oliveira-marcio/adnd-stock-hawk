@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/widget_default_padding"
+    android:paddingStart="@dimen/widget_default_padding">
+
+    <TextView
+        android:id="@+id/symbol"
+        style="@style/StockSymbolTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:textColor="@color/widget_text"
+        tools:text="GOOG" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/BidPriceTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/widget_price_margin"
+            android:textColor="@color/widget_text"
+            tools:text="1000.00" />
+
+        <TextView
+            android:id="@+id/change"
+            style="@style/PercentChangeTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/percent_change_pill_green"
+            android:paddingEnd="@dimen/widget_change_padding"
+            android:paddingStart="@dimen/widget_change_padding"
+            tools:text="100%" />
+    </LinearLayout>
+</LinearLayout>

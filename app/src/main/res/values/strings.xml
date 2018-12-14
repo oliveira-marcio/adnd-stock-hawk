@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+    <string name="pref_stock_insert_stats_key" translatable="false">stock_insert_status</string>
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+    <string name="title_widget_detail">@string/app_name</string>
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+    <string name="widget_empty_stocks">No stocks added! Hit to add some default ones.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="toast_plot_data_invalid">Data to plot graph is invalid.</string>
+    <string name="toast_stock_add_error">Invalid symbol to add.</string>
+
+    <string name="a11y_add_stock">Add new stock</string>
+    <string name="a11y_toggle_display_mode">Change display mode to %s</string>
+    <string name="a11y_display_unit">Units</string>
+    <string name="a11y_display_percentage">Percentage</string>
+    <string name="a11y_stock_graph1">Graph for %s stock. </string>
+    <string name="a11y_stock_graph2">Starting from %s </string>
+    <string name="a11y_stock_graph3">Until %s.</string>
+    <string name="a11y_stock_graph_marker">Selected stock price of %s on </string>
+
+</resources>

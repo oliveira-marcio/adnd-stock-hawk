@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="marker_view_padding">8dp</dimen>
+
+    <dimen name="widget_title_margin">8dp</dimen>
+    <dimen name="widget_default_padding">16dp</dimen>
+    <dimen name="widget_detail_default_width">250dp</dimen>
+    <dimen name="widget_detail_default_height">180dp</dimen>
+    <dimen name="widget_detail_min_resize_width">250dp</dimen>
+    <dimen name="widget_detail_min_resize_height">@dimen/widget_detail_default_height</dimen>
+    <dimen name="widget_price_margin">10sp</dimen>
+    <dimen name="widget_change_padding">3dp</dimen>
+
+</resources>
