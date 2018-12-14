@@ -1,11 +1,24 @@
-# Stock Hawk
+# Udacity Android Developer Nanodegree - Projeto 3 (Stock Hawk)
 
-This is the starter code for project 3 in Udacity's [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801). 
+Este é um projeto que tem como objetivo completar um app já existente (código inicial disponibilizado [aqui](https://github.com/udacity/StockHawk)) adicionando funcionalidades ausentes e corrigindo alguns bugs.
 
-Check out Udacity's [Advanced Android App Development](https://www.udacity.com/course/advanced-android-app-development--ud855) course to get the skills you'll need to complete this project!
+O app é um visualizador de ações da bolsa de valores do mercado Americano (utilizando a [Yahoo Finance API](https://financequotes-api.com/)) onde o usuário poderá consultar os valores diários de cada ação e adicionar novas ações na carteira.
 
-If you're a Nanodegree student check your work againt the project [rubric](https://review.udacity.com/#!/rubrics/140/view), then click [here](https://classroom.udacity.com/nanodegrees/nd801/parts/8011345406/project) to submit your project.
+Dentre as novas funcionalidades implementadas e bugs corrigidos:
 
-# Contrubuting
+- Tela para exibir detalhes de uma ação clicada na lista principal, onde é plotado um gráfico histórico de valores diários da ação (foi utilizada a biblioteca [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart))
+- Correção de um _crash_ no app ao fazer a busca por uma ação que não existe
+- Criação de um `AppWidget` para exibir a lista de ações da carteira do usuário
+- Adição de descrições de conteúdo (_content descriptions_) para todos os elementos visuais da UI
+- Adição de suporte ao espelhamento da UI para dispositivos configurados em RTL
+- Todas as strings foram movidas para o arquivo `strings.xml` e as que não são traduzíveis foram marcadas com o atribito `traslatable=false`
 
-Pull requests gratefully accepted.
+## Instalação:
+- Faça um clone do repositório
+- Importe a pasta como um novo projeto no [Android Studio](https://developer.android.com/studio/)
+- Configure um [emulador](https://developer.android.com/studio/run/emulator) ou conecte um [celular com USB debug ativado](https://developer.android.com/studio/run/device)
+- Execute apartir do menu "Run"
+
+## Copyright
+
+Esse projeto foi desenvolvido por Márcio Souza de Oliveira em 05/04/2017.
